@@ -115,7 +115,7 @@ const GuruAntiLink = async (Guru, message, getGroupMetadata) => {
         }
 
         const settings = await getAllSettings();
-        const botName = settings.BOT_NAME || 'BLACK PANTHER';
+        const botName = settings.BOT_NAME || 'LUKA-AI';
         
         if (sender.endsWith('@lid')) {
             const cached = getLidMapping(sender);
