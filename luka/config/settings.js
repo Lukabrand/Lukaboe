@@ -10,17 +10,17 @@ const bool = (key, def = true) => {
 
 const config = {
     // ── Bot Identity ──────────────────────────────────
-    BOT_NAME:       process.env.BOT_NAME     || 'BLACK PANTHER MD',
-    OWNER_NAME:     process.env.OWNER_NAME   || 'Koyoteh',
-    OWNER_NUMBER:   process.env.OWNER_NUMBER || '254116284050',
+    BOT_NAME:       process.env.BOT_NAME     || 'LUKA-AI',
+    OWNER_NAME:     process.env.OWNER_NAME   || 'Lukabrand',
+    OWNER_NUMBER:   process.env.OWNER_NUMBER || '255768619068',
     BOT_PREFIX:     process.env.BOT_PREFIX   || '.',
     BOT_VERSION:    '1.0.0',
-    PACK_NAME:      process.env.BOT_NAME     || 'BLACK PANTHER MD',
-    PACK_AUTHOR:    process.env.OWNER_NAME   || 'Koyoteh',
+    PACK_NAME:      process.env.BOT_NAME     || 'LUKA-AI',
+    PACK_AUTHOR:    process.env.OWNER_NAME   || 'Luabrand',
 
     // ── Channel (Koyoteh WhatsApp Channel) ───────────
     // https://whatsapp.com/channel/0029Vb7jauLHLHQbkcbcHi0e
-    CHANNEL_URL:        process.env.CHANNEL_URL  || 'https://whatsapp.com/channel/0029Vb7jauLHLHQbkcbcHi0e',
+    CHANNEL_URL:        process.env.CHANNEL_URL  || 'https://whatsapp/0029Vb7jauLHLHQbkcbcHi0e',
     CHANNEL_NAME:       process.env.CHANNEL_NAME || 'BLACK PANTHER MD Channel',
     // Newsletter JID for the green "Forwarded from <channel>" chip on every reply.
     // Format: <id>@newsletter   (e.g. 120363401548261516@newsletter)
