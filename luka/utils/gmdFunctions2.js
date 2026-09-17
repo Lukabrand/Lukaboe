@@ -42,7 +42,7 @@ function channelCtx() {
             renderLargerThumbnail: false,
             showAdAttribution:     true,
             sourceUrl:             config.CHANNEL_URL,
-            thumbnailUrl:          'https://i.ibb.co/PZjVDnBM/upload-1778637749645-4b17ed31-jpg.jpg',
+            thumbnailUrl:          'https://i.imgur.com/FMp7ioz.png',
         },
     };
 }
