@@ -25,7 +25,7 @@ const config = {
     // Newsletter JID for the green "Forwarded from <channel>" chip on every reply.
     // Format: <id>@newsletter   (e.g. 120363401548261516@newsletter)
     CHANNEL_JID:        process.env.CHANNEL_JID  || '120363427012090993@newsletter',
-    CHANNEL_NEWSLETTER_NAME: process.env.CHANNEL_NEWSLETTER_NAME || '🐾『 BLACK PANTHER MD 』🐾',
+    CHANNEL_NEWSLETTER_NAME: process.env.CHANNEL_NEWSLETTER_NAME || '🐾『 LUKA-AI 』🐾',
 
     // ── Connection ────────────────────────────────────
     SESSION_ID:     process.env.SESSION_ID   || '',
