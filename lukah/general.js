@@ -1,6 +1,6 @@
 "use strict";
 
-const { gmd }          = require("../mayra");
+const { gmd }          = require("../luka");
 const moment           = require("moment-timezone");
 
 const {
@@ -76,7 +76,7 @@ ${cmdList}
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
                 newsletterJid: newsletterJid || "120363406649804510@newsletter",
-                newsletterName: botName || "MAYRA-AI",
+                newsletterName: botName || "LUKA-AI",
                 serverMessageId: 0,
             },
         };
@@ -134,7 +134,7 @@ gmd(
 
         const buildMsg = () => {
             const alive = getAliveCount();
-            return `╭─⌈ 🏓 *${botName || "MAYRA-AI"}* ⌋
+            return `╭─⌈ 🏓 *${botName || "LUKA-AI"}* ⌋
 │ Status  : ✅ Online & Ready
 │ Ping    : *${ping}ms*
 │ Alive   : *${alive}*
@@ -184,7 +184,7 @@ gmd(
         await react("⏱️");
 
         const tz = timeZone || process.env.TIME_ZONE || "Africa/Nairobi";
-        const bn = botName || "MAYRA-AI";
+        const bn = botName || "LUKA-AI";
 
         const buildMsg = () => {
             const t     = moment().tz(tz);
@@ -242,22 +242,22 @@ gmd(
                 botMode, ownerName } = conText;
         await react("🤖");
 
-        const { commands } = require("../mayra");
+        const { commands } = require("../luka");
         const totalCmds = commands.filter(c => c.pattern && !c.dontAddCommandList).length;
         const up = process.uptime();
         const h  = Math.floor(up / 3600);
         const m  = Math.floor((up % 3600) / 60);
 
         await reply(
-`╭─⌈ 🤖 *${botName || "MAYRA-AI"}* ⌋
+`╭─⌈ 🤖 *${botName || "LUKA-AI"}* ⌋
 │ Version   : *v${botVersion || "5.0.0"}*
 │ Prefix    : *${botPrefix || "."}*
 │ Mode      : *${(botMode || "public").toUpperCase()}*
 │ Commands  : *${totalCmds}*
 │ Uptime    : *${h}h ${m}m*
-│ Owner     : *${ownerName || "LukaTech"}*
+│ Owner     : *${ownerName || "ʟᴜᴋᴀʙʀᴀɴᴅ"}*
 │ Library   : Baileys
-╰⊷ *${botName || "MAYRA-AI"}*`
+╰⊷ *${botName || "LUKA-AI"}*`
         );
     }
 );
