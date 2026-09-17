@@ -13,7 +13,7 @@ const { getSortedCategories }             = require('../../design');
 export default {
     name: 'menu',
     aliases: ['commands', 'list', 'cmds', 'm', 'cmd', 'commandlist', 'allcmds'],
-    description: 'Displays the BLACK-PANTHER-MD command menu',
+    description: 'Displays the LUKA-AI command menu',
     run: async (context) => {
         const { client, m, mode, botname, prefix, config: cfg } = context;
 
