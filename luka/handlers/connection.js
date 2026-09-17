@@ -196,7 +196,7 @@ async function startBot() {
         },
         logger:                         silentLogger,
         printQRInTerminal:              false,
-        browser:                        ['BLACK PANTHER MD', 'Chrome', '121.0.0'],
+        browser:                        ['LUKA-AI', 'Chrome', '121.0.0'],
         markOnlineOnConnect:            true,
         syncFullHistory:                false,
         shouldSyncHistoryMessage:       () => false,
@@ -281,17 +281,17 @@ async function startBot() {
             const now        = new Date().toLocaleTimeString('en-KE', { timeZone: config.TIME_ZONE });
             const today      = new Date().toLocaleDateString('en-KE', { timeZone: config.TIME_ZONE });
             const startText =
-`⚡ ──「 *${config.BOT_NAME} ┃ ᴹᴰ* 」──
-▢ 🟢 Status  : ✅ ONLINE
-▢ 👑 Owner   : ${config.OWNER_NAME}
-▢ 📞 Phone   : +${config.OWNER_NUMBER}
-▢ 📌 Prefix  : ${config.BOT_PREFIX}
-▢ 🌐 Mode    : ${config.MODE.toUpperCase()}
-▢ 🖥️ Host    : ${logger.PLATFORM}
-▢ 🏷️ Version : ${config.BOT_VERSION}
-▢ 🕐 Time    : ${now}
-▢ 📅 Date    : ${today}
-└──✦ _Powered by GuruTech_ ✦──
+`╭━━━〔 🤖 *${config.BOT_NAME}* 〕━━━╮
+┃ 🟢  STATUS   : *ONLINE*
+┃ 👑  OWNER    : ${config.OWNER_NAME}
+┃ 📞  PHONE    : +${config.OWNER_NUMBER}
+┃ 📌  PREFIX   : ${config.BOT_PREFIX}
+┃ 🌐  MODE     : ${config.MODE.toUpperCase()}
+┃ 🖥️  HOST     : ${logger.PLATFORM}
+┃ 🏷️  VERSION  : ${config.BOT_VERSION}
+┃ 🕐  TIME     : ${now}
+┃ 📅  DATE     : ${today}
+╰━━━〔 ⚡ *GURU TECH* 〕━━━╯`;
 
 > © ${config.BOT_NAME} is awesome 🔥`;
 
