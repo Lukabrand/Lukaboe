@@ -149,7 +149,7 @@ const serializeMessage = async (ms, Guru, settings = {}) => {
         command,
         args,
         q: args.join(' '),
-        pushName: ms.pushName || (ms.key.fromMe ? Guru.user?.name : null) || '𝐀𝐓𝐀𝐒𝐒𝐀-𝐌𝐃 User',
+        pushName: ms.pushName || (ms.key.fromMe ? Guru.user?.name : null) || '𝐋𝐔𝐊𝐀-𝐀𝐈 User',
         quoted,
         repliedMessage,
         mentionedJid,
