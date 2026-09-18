@@ -1,4 +1,4 @@
-ɪᴛ*
+/**
  * design.js — Simple Premium Menu System
  */
 
@@ -125,7 +125,7 @@ async function getData(conText) {
 
         footer:
             botFooter ||
-            "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴜᴋᴀʙʀᴀɴᴅ",
+            "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴜᴋᴀ ɪᴛ",
 
         commands:
             totalCommands,
