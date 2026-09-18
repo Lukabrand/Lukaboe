@@ -17,7 +17,7 @@
 // ─────────────────────────────────────────────────────────────────────────
 
 const { gmd } = require("../luka/gmdCmds");
-const { getSetting, setSetting } = require("../guru/database/settings");
+const { getSetting, setSetting } = require("../luka/database/settings");
 
 function parseScope(word) {
   const w = (word || "").toLowerCase().trim();
