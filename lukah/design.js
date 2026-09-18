@@ -333,7 +333,7 @@ async function buildMenuData(conText) {
             botMode || "public",
 
         botFooter:
-            botFooter || "Powered by LUKA iT",
+            botFooter || "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴜᴋᴀʙʀᴀɴᴅ",
 
         botCaption:
             botCaption || "",
