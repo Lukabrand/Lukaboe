@@ -125,7 +125,7 @@ async function getData(conText) {
 
         footer:
             botFooter ||
-            "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴜᴋᴀ ɪᴛ",
+            "ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʟᴜᴋᴀʙʀᴀɴᴅ",
 
         commands:
             totalCommands,
