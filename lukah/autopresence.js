@@ -16,7 +16,7 @@
 //  so enabling one for a scope replaces whichever was active there before.
 // ─────────────────────────────────────────────────────────────────────────
 
-const { gmd } = require("../guru/gmdCmds");
+const { gmd } = require("../luka/gmdCmds");
 const { getSetting, setSetting } = require("../guru/database/settings");
 
 function parseScope(word) {
