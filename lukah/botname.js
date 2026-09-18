@@ -1,10 +1,10 @@
 'use strict';
 // ╭─────────────────────────────────────────────────────────────╮
-//   BLACK PANTHER MD  ·  guruh/botname.js
+//   LUKA-AI  ·  lukah/botname.js
 //   Provides getBotName() helper used by plugins that need the
 //   bot's display name without a circular import back into the
 //   full config tree.
-// └──𝐁𝐋𝐀𝐂𝐊 𝐏𝐀𝐍𝐓𝐇𝐄𝐑 ┃ ᴹᴰ────────────────────────────────────────────────╯
+// └──LUKA-AI────────────────────────────────────────────────╯
 
 const config = require('../luka/config/settings');
 
