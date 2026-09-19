@@ -66,7 +66,7 @@ function startWebServer() {
 
     app.use(express.json());
     app.use(express.static("luka"));
-    app.get("/",       (_req, res) => res.sendFile(path.join(__dirname, "luk", "guru.html")));
+    app.get("/",       (_req, res) => res.sendFile(path.join(__dirname, "luka", "guru.html")));
     app.get("/pair",   (_req, res) => res.sendFile(path.join(__dirname, "luka", "pair.html")));
     app.get("/health", (_req, res) => res.status(200).json({ status: "alive", uptime: process.uptime() }));
 
